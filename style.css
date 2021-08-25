@@ -115,33 +115,4 @@ body {
 .stats p {
   font-size: 12px;
 }
-
-@media screen and (max-width: 927px) {
-  .top {
-    top: -200px;
-    left: -100px;
-  }
-  .bottom {
-    bottom: -200px;
-    right: -150px;
-  }
-  body {
-    overflow: hidden;
-  }
-}
-
-@media screen and (max-width: 579px) {
-  .top {
-    top: -200px;
-    left: -200px;
-    width: 100%;
-    -webkit-transform: rotate(100deg);
-            transform: rotate(100deg);
-  }
-  .bottom {
-    bottom: -300px;
-    right: -250px;
-    width: 100%;
-  }
-}
 /*# sourceMappingURL=style.css.map */
