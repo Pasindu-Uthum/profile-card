@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #19a2ae;
+  overflow: hidden;
+}
+
+.top {
+  top: -350px;
+  left: -130px;
+  width: 50%;
+  position: absolute;
+}
+
+.bottom {
+  bottom: -400px;
+  right: -100px;
+  width: 50%;
+  position: absolute;
+}
+
+.center-display {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  z-index: 1;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-pattern {
+  width: 100%;
+}
+
+.profile-pic {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-transform: translate(0, -60px);
+          transform: translate(0, -60px);
+  overflow: hidden;
+  padding: 5px;
+}
+
+.profile-pic img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.info {
+  -webkit-transform: translate(0, -50px);
+          transform: translate(0, -50px);
+}
+
+.info h1 {
+  padding-top: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 25px;
+}
+
+.info span {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: lighter;
+  color: #6a6f81;
+}
+
+.info span:nth-child(2) {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.info hr {
+  margin-top: 30px;
+}
+
+.stats-preview {
+  -webkit-transform: translate(0, -55px);
+          transform: translate(0, -55px);
+}
+
+.stats {
+  display: inline-block;
+  padding: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.stats h1 {
+  font-size: 25px;
+}
+
+.stats p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 927px) {
+  .top {
+    top: -200px;
+    left: -100px;
+  }
+  .bottom {
+    bottom: -200px;
+    right: -150px;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .top {
+    top: -200px;
+    left: -200px;
+    width: 100%;
+    -webkit-transform: rotate(100deg);
+            transform: rotate(100deg);
+  }
+  .bottom {
+    bottom: -300px;
+    right: -250px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
